@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first {
+    color: black;
+    margin-top: 45rem;
+    font-family: cursive;
+}
+
+.leaderboard {
+    max-width: 25rem;
+    /* border: 2px solid black; */
+    margin: 5rem auto;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px #aaa;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #ff7500;
+    color: #ffffff;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    height: 15rem;
+    position: relative;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 3rem;
+    position: absolute;
+    top: 4rem;
+    margin-left: 3rem;
+}
+
+img {
+    height: 16rem;
+    position: relative;
+    bottom: 0.5rem;
+    /* right: 0rem; */
+    left: 12rem;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    font-size: 0.9;
+    background: linear-gradient( to bottom, transparent, transparent 10%, rgba(22, 22, 22, 0.));
+}
+
+nav a {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:first-child {
+    margin-left: 3rem;
+}
+
+nav a+a {
+    margin-left: 1rem;
+}
+
+table {
+    background-color: #16181e;
+    color: #999;
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    overflow: hidden;
+}
+
+thead {
+    font-size: 1rem;
+    color: #666;
+    text-transform: uppercase;
+}
+
+tbody .nick {
+    color: white;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #1f232c;
+}
+
+.nick {
+    text-align: left;
+}
+
+.rank {
+    text-align: right;
+}
+
+.rank,
+.sp,
+.kd {
+    text-align: right;
+}
+
+.rank {
+    width: 4ch;
+}
+
+.sp,
+.kd {
+    width: 8ch;
+}
+
+th {
+    padding: 1rem 1rem 0;
+}
+
+td {
+    padding: 1rem 1rem;
+}
